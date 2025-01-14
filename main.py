@@ -6,7 +6,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQu
 from uuid import uuid4
 from typing import List, Optional
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8002322692:AAGWjc3N1A8qlYIU_-QNorVp_JO5OttiXSQ")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "your token here")
 JSON_URL = 'https://raw.githubusercontent.com/trickzin/ItemID/refs/heads/main/assets/itemData.json'
 ICON_URL_BASE = 'https://raw.githubusercontent.com/trickzin/ff-resources/main/pngs/300x300/'
 
